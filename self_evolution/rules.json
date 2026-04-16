@@ -1,0 +1,30 @@
+{
+  "error_type": "memory_misattribution",
+  "pattern": "grep_without_context_expand",
+  "fix": "force_expand_context_before_judge",
+  "occurred": "2026-04-16T13:16:00+08:00",
+  "description": "grep命中后直接判断来源，未expand上下文，导致agent_self内容被误标为imported",
+  "anti_patterns": [
+    "grep结果直接作为事实判断",
+    "只看命中行不读上下文",
+    "不区分agent_self和conversation来源"
+  ],
+  "required_steps": [
+    "1. grep定位 → 2. expand ±20行上下文 → 3. detect_source() → 4. verify → 5. 才能下结论"
+  ],
+  "memory_metadata_required": {
+    "source": "硬约束，不允许推测",
+    "session_id": "当前会话ID",
+    "timestamp": "时间戳",
+    "confidence": "0.0-1.0",
+    "hash": "内容指纹"
+  },
+  "trust_levels": {
+    "system": 1.0,
+    "conversation": 0.9,
+    "agent_self": 0.6,
+    "imported": 0.7,
+    "inferred": 0.3
+  },
+  "low_trust_rule": "trust < 0.6 的结论必须标记 UNVERIFIED CLAIM，禁止直接作为事实判断"
+}
