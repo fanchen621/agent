@@ -1,0 +1,7 @@
+{
+  "id": "know-ssh-test-isol",
+  "category": "engineering",
+  "insight": "Long-running tests on VPS must use background processes (nohup/&) or increased timeout. Never rely on foreground SSH exec for tests >10s. Check process exit status separately. Always set ClientAliveInterval + ServerAliveCountMax in SSH config to prevent premature SIGKILL.",
+  "source": "observation OBS-4 from batch 1 (A-Evolve)",
+  "confidence": 0.95
+}
