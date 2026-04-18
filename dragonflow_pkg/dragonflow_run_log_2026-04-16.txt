@@ -1,0 +1,289 @@
+[32m09:41:43[0m | [1mINFO    [0m | [36mopenclaw_adapter[0m - [1m[DragonFlow] 日志已初始化 | 目录: /root/DragonFlow/data/logs[0m
+[32m09:41:43[0m | [1mINFO    [0m | [36m__main__[0m - [1m[DragonFlow] 数据库初始化完成[0m
+[router] eastmoney_clist ❌
+[router] eastmoney_ulist ❌
+[router] sina_vip ❌
+[router] tencent_quote ❌
+[router] sina_hq ❌
+[32m09:41:44[0m | [1mINFO    [0m | [36mopenclaw_adapter[0m - [1m[router] 启动探活完成[0m
+[32m09:41:44[0m | [1mINFO    [0m | [36mengine.autopilot[0m - [1m[autopilot] started[0m
+╭───────────────────────────── DragonFlow 已启动 ──────────────────────────────╮
+│ DragonFlow 系统状态                                                          │
+│                                                                              │
+│                                                                              │
+│  项目       状态                                                             │
+│  ─────────────────────────────────────                                       │
+│  调度器     未启动                                                           │
+│  AutoPilot  运行中                                                           │
+│  Web        运行 http://127.0.0.1:8888                                       │
+│  交易日     Y                                                                │
+│  市场区间   [?] unknown                                                      │
+│  情绪周期   unknown                                                          │
+│  数据库     14.38 MB                                                         │
+│                                                                              │
+│                                                                              │
+│ 最近执行: 早盘- / 午盘- / 收盘- 下次任务: 2026-04-16 11:35 午盘分析          │
+│ Dashboard: http://127.0.0.1:8888                                             │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:41:44[0m | [1mINFO    [0m | [36m__main__[0m - [1m[Web] Dashboard: http://127.0.0.1:8888[0m
+╭───────────────────────────   DragonFlow Dashboard ───────────────────────────╮
+│ Dashboard URL:                                                               │
+│                                                                              │
+│   http://127.0.0.1:8888                                                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:41:45[0m | [1mINFO    [0m | [36mscheduler[0m - [1m[调度] APScheduler 已启动[0m
+[32m09:41:45[0m | [1mINFO    [0m | [36mscheduler[0m - [1m[调度] 08:50早盘 | 11:35午盘 | 15:35收盘 | 每小时动态回测 | 2h知识 | 02:00深度学习 | 6h健康[0m
+[32m09:41:45[0m | [1mINFO    [0m | [36mapi.server[0m - [1m[DragonFlow Dashboard] 启动完成[0m
+[32m09:41:47[0m | [1mINFO    [0m | [36mfeeds.resilient[0m - [1m[弹性] 指数源切换: tencent -> sina[0m
+[32m09:41:56[0m | [1mINFO    [0m | [36mfeeds.sentiment[0m - [1m[舆情] 市场RSI=0.73 [偏乐观] 修正0.8 样本72[0m
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[32m09:44:55[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:44:55[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:44:55[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] no evolution candidates after fallback 62.0,56.0,50.0[0m
+[32m09:44:55[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] 0 live / 0 evolution candidates from 174 symbols in 179202.4ms (feature=70 adv=18)[0m
+[32m09:44:55[0m | [1mINFO    [0m | [36mengine.evolution_mode[0m - [1m[evolution_mode] created cycle 2 2026-04-16->2026-04-17[0m
+[32m09:44:55[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重1 警告1)[0m
+[32m09:44:55[0m | [1mINFO    [0m | [36mfeeds.resilient[0m - [1m[弹性] 所有数据源健康状态已重置[0m
+[32m09:44:55[0m | [1mINFO    [0m | [36mselfheal.doctor[0m - [1m[自愈] 已重置所有数据源健康状态[0m
+[32m09:44:55[0m | [1mINFO    [0m | [36mselfheal.doctor[0m - [1m[自愈] 缓存已清理[0m
+╭────────────────────────────── DragonFlow 自愈 ───────────────────────────────╮
+│ 系统自愈执行                                                                 │
+│                                                                              │
+│ 状态: critical                                                               │
+│                                                                              │
+│  • data_freshness: data_source_switch -> success                             │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:45:04[0m | [1mINFO    [0m | [36mopenclaw_adapter[0m - [1m[quick_scan] zone=neutral 扫描完成: 0 只候选[0m
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[32m09:45:22[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重1 警告1)[0m
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[32m09:45:28[0m | [1mINFO    [0m | [36mfeeds.sentiment[0m - [1m[舆情] 市场RSI=0.68 [中性] 修正1.0 样本72[0m
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+WARNING:  Unsupported upgrade request.
+WARNING:  No supported WebSocket library detected. Please use "pip install 'uvicorn[standard]'", or install 'websockets' or 'wsproto' manually.
+[32m09:46:18[0m | [1mINFO    [0m | [36mopenclaw_adapter[0m - [1m[DragonFlow] 日志已初始化 | 目录: /root/DragonFlow/data/logs[0m
+[32m09:46:18[0m | [1mINFO    [0m | [36m__main__[0m - [1m[DragonFlow] 数据库初始化完成[0m
+[router] eastmoney_clist ❌
+[router] eastmoney_ulist ❌
+[router] sina_vip ❌
+[router] tencent_quote ❌
+[router] sina_hq ❌
+[32m09:46:19[0m | [1mINFO    [0m | [36mopenclaw_adapter[0m - [1m[router] 启动探活完成[0m
+[32m09:46:19[0m | [1mINFO    [0m | [36mengine.evolution_mode[0m - [1m[evolution_mode] startup maintenance repaired=0 finalized=0 archived=0 pruned={'realtime_watch': 2, 'evolution_mode': 1, 'dynamic_backtest': 0, 'daily_backtest_report': 0, 'adaptive_factor_state': 0, 'evo_maintenance': 0, 'system_health_logs': 0}[0m
+[32m09:46:19[0m | [1mINFO    [0m | [36mengine.autopilot[0m - [1m[autopilot] started[0m
+╭───────────────────────────── DragonFlow 已启动 ──────────────────────────────╮
+│ DragonFlow 系统状态                                                          │
+│                                                                              │
+│                                                                              │
+│  项目       状态                                                             │
+│  ─────────────────────────────────────                                       │
+│  调度器     未启动                                                           │
+│  AutoPilot  运行中                                                           │
+│  Web        运行 http://127.0.0.1:8888                                       │
+│  交易日     Y                                                                │
+│  市场区间   [?] unknown                                                      │
+│  情绪周期   unknown                                                          │
+│  数据库     14.38 MB                                                         │
+│                                                                              │
+│                                                                              │
+│ 最近执行: 早盘- / 午盘- / 收盘- 下次任务: 2026-04-16 11:35 午盘分析          │
+│ Dashboard: http://127.0.0.1:8888                                             │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:46:20[0m | [1mINFO    [0m | [36m__main__[0m - [1m[Web] Dashboard: http://127.0.0.1:8888[0m
+╭───────────────────────────   DragonFlow Dashboard ───────────────────────────╮
+│ Dashboard URL:                                                               │
+│                                                                              │
+│   http://127.0.0.1:8888                                                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:46:20[0m | [1mINFO    [0m | [36mscheduler[0m - [1m[调度] APScheduler 已启动[0m
+[32m09:46:20[0m | [1mINFO    [0m | [36mscheduler[0m - [1m[调度] 08:50早盘 | 11:35午盘 | 15:35收盘 | 每小时动态回测 | 2h知识 | 02:00深度学习 | 6h健康[0m
+[32m09:46:20[0m | [1mINFO    [0m | [36mapi.server[0m - [1m[DragonFlow Dashboard] 启动完成[0m
+[32m09:46:22[0m | [1mINFO    [0m | [36mfeeds.resilient[0m - [1m[弹性] 指数源切换: tencent -> sina[0m
+[32m09:46:33[0m | [1mINFO    [0m | [36mfeeds.sentiment[0m - [1m[舆情] 市场RSI=0.68 [中性] 修正1.0 样本72[0m
+[32m09:46:59[0m | [1mINFO    [0m | [36mopenclaw_adapter[0m - [1m[DragonFlow] 日志已初始化 | 目录: /root/DragonFlow/data/logs[0m
+[32m09:46:59[0m | [1mINFO    [0m | [36m__main__[0m - [1m[DragonFlow] 数据库初始化完成[0m
+[router] eastmoney_clist ❌
+[router] eastmoney_ulist ❌
+[router] sina_vip ❌
+[router] tencent_quote ❌
+[router] sina_hq ❌
+[32m09:47:00[0m | [1mINFO    [0m | [36mopenclaw_adapter[0m - [1m[router] 启动探活完成[0m
+[32m09:47:00[0m | [1mINFO    [0m | [36mengine.autopilot[0m - [1m[autopilot] started[0m
+╭───────────────────────────── DragonFlow 已启动 ──────────────────────────────╮
+│ DragonFlow 系统状态                                                          │
+│                                                                              │
+│                                                                              │
+│  项目       状态                                                             │
+│  ─────────────────────────────────────                                       │
+│  调度器     未启动                                                           │
+│  AutoPilot  运行中                                                           │
+│  Web        运行 http://127.0.0.1:8888                                       │
+│  交易日     Y                                                                │
+│  市场区间   [?] unknown                                                      │
+│  情绪周期   unknown                                                          │
+│  数据库     14.38 MB                                                         │
+│                                                                              │
+│                                                                              │
+│ 最近执行: 早盘- / 午盘- / 收盘- 下次任务: 2026-04-16 11:35 午盘分析          │
+│ Dashboard: http://127.0.0.1:8888                                             │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:47:01[0m | [1mINFO    [0m | [36m__main__[0m - [1m[Web] Dashboard: http://127.0.0.1:8888[0m
+╭───────────────────────────   DragonFlow Dashboard ───────────────────────────╮
+│ Dashboard URL:                                                               │
+│                                                                              │
+│   http://127.0.0.1:8888                                                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:47:01[0m | [1mINFO    [0m | [36mscheduler[0m - [1m[调度] APScheduler 已启动[0m
+[32m09:47:01[0m | [1mINFO    [0m | [36mscheduler[0m - [1m[调度] 08:50早盘 | 11:35午盘 | 15:35收盘 | 每小时动态回测 | 2h知识 | 02:00深度学习 | 6h健康[0m
+[32m09:47:01[0m | [1mINFO    [0m | [36mapi.server[0m - [1m[DragonFlow Dashboard] 启动完成[0m
+[32m09:47:03[0m | [1mINFO    [0m | [36mfeeds.resilient[0m - [1m[弹性] 指数源切换: tencent -> sina[0m
+[32m09:47:13[0m | [1mINFO    [0m | [36mfeeds.sentiment[0m - [1m[舆情] 市场RSI=0.68 [中性] 修正1.0 样本72[0m
+[32m09:47:41[0m | [1mINFO    [0m | [36mapi.server[0m - [1m[ws] connected clients=1[0m
+[32m09:47:46[0m | [1mINFO    [0m | [36mapi.server[0m - [1m[ws] disconnected clients=0[0m
+[32m09:48:46[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: warn (严重0 警告2)[0m
+[32m09:48:47[0m | [1mINFO    [0m | [36mapi.server[0m - [1m[ws] connected clients=1[0m
+[32m09:49:04[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m09:49:12[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m09:49:17[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重1 警告1)[0m
+[32m09:49:18[0m | [1mINFO    [0m | [36mapi.server[0m - [1m[ws] disconnected clients=0[0m
+[32m09:50:07[0m | [1mINFO    [0m | [36mopenclaw_adapter[0m - [1m[quick_scan] zone=neutral 扫描完成: 0 只候选[0m
+[32m09:50:33[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:50:33[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:50:33[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] no evolution candidates after fallback 62.0,56.0,50.0[0m
+[32m09:50:33[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] 0 live / 0 evolution candidates from 174 symbols in 200596.0ms (feature=70 adv=18)[0m
+[32m09:50:33[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重1 警告1)[0m
+[32m09:50:33[0m | [1mINFO    [0m | [36mfeeds.resilient[0m - [1m[弹性] 所有数据源健康状态已重置[0m
+[32m09:50:33[0m | [1mINFO    [0m | [36mselfheal.doctor[0m - [1m[自愈] 已重置所有数据源健康状态[0m
+[32m09:50:33[0m | [1mINFO    [0m | [36mselfheal.doctor[0m - [1m[自愈] 缓存已清理[0m
+╭────────────────────────────── DragonFlow 自愈 ───────────────────────────────╮
+│ 系统自愈执行                                                                 │
+│                                                                              │
+│ 状态: critical                                                               │
+│                                                                              │
+│  • data_freshness: data_source_switch -> success                             │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:52:09[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:52:10[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:52:10[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] no evolution candidates after fallback 62.0,56.0,50.0[0m
+[32m09:52:10[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] 0 live / 0 evolution candidates from 301 symbols in 89464.6ms (feature=35 adv=8)[0m
+[32m09:52:10[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重1 警告2)[0m
+[32m09:52:10[0m | [1mINFO    [0m | [36mselfheal.doctor[0m - [1m[自愈] 缓存已清理[0m
+╭────────────────────────────── DragonFlow 自愈 ───────────────────────────────╮
+│ 系统自愈执行                                                                 │
+│                                                                              │
+│ 状态: critical                                                               │
+│                                                                              │
+│  • tick_latency: cache_clear -> success                                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:52:11[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m09:52:18[0m | [1mINFO    [0m | [36mfeeds.sentiment[0m - [1m[舆情] 市场RSI=0.62 [中性] 修正1.0 样本72[0m
+[32m09:53:47[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:53:47[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:53:47[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] no evolution candidates after fallback 62.0,56.0,50.0[0m
+[32m09:53:47[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] 0 live / 0 evolution candidates from 301 symbols in 89047.9ms (feature=35 adv=8)[0m
+[32m09:53:48[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重1 警告2)[0m
+[32m09:53:48[0m | [1mINFO    [0m | [36mselfheal.doctor[0m - [1m[自愈] 缓存已清理[0m
+╭────────────────────────────── DragonFlow 自愈 ───────────────────────────────╮
+│ 系统自愈执行                                                                 │
+│                                                                              │
+│ 状态: critical                                                               │
+│                                                                              │
+│  • tick_latency: cache_clear -> success                                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:53:50[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m09:55:09[0m | [33m[1mWARNING [0m | [36mopenclaw_adapter[0m - [33m[1m[quick_scan] 新浪涨幅榜获取失败: Command '['curl', '-s', '--max-time', '8', '-H', 'Referer: https://finance.sina.com.cn/', 'https://vip.stock.finance.sina.com.cn/quotes_service/api/json_v2.php/Market_Center.getHQNodeData?node=hs_a&num=80&sort=changepercent&asc=0&page=1']' returned non-zero exit status 28.[0m
+WARNING:  Invalid HTTP request received.
+[32m09:55:45[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:55:45[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:55:45[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] no evolution candidates after fallback 62.0,56.0,50.0[0m
+[32m09:55:45[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] 0 live / 0 evolution candidates from 301 symbols in 111359.0ms (feature=35 adv=8)[0m
+[32m09:55:45[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重1 警告2)[0m
+[32m09:55:45[0m | [1mINFO    [0m | [36mselfheal.doctor[0m - [1m[自愈] 缓存已清理[0m
+╭────────────────────────────── DragonFlow 自愈 ───────────────────────────────╮
+│ 系统自愈执行                                                                 │
+│                                                                              │
+│ 状态: critical                                                               │
+│                                                                              │
+│  • tick_latency: cache_clear -> success                                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:55:47[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m09:57:44[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:57:44[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m09:57:44[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] no evolution candidates after fallback 62.0,56.0,50.0[0m
+[32m09:57:44[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] 0 live / 0 evolution candidates from 301 symbols in 112643.0ms (feature=35 adv=8)[0m
+[32m09:57:44[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重1 警告2)[0m
+[32m09:57:44[0m | [1mINFO    [0m | [36mselfheal.doctor[0m - [1m[自愈] 缓存已清理[0m
+╭────────────────────────────── DragonFlow 自愈 ───────────────────────────────╮
+│ 系统自愈执行                                                                 │
+│                                                                              │
+│ 状态: critical                                                               │
+│                                                                              │
+│  • tick_latency: cache_clear -> success                                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[32m09:57:44[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m09:57:51[0m | [1mINFO    [0m | [36mfeeds.sentiment[0m - [1m[舆情] 市场RSI=0.71 [偏乐观] 修正0.8 样本72[0m
+WARNING:  Invalid HTTP request received.
+[32m10:00:00[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重2 警告1)[0m
+[32m10:00:00[0m | [33m[1mWARNING [0m | [36mselfheal.doctor[0m - [33m[1m[自愈] 本小时修复次数已达上限，跳过[0m
+[32m10:00:03[0m | [1mINFO    [0m | [36mopenclaw_adapter[0m - [1m[quick_scan] zone=neutral 扫描完成: 0 只候选[0m
+[32m10:00:19[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m10:00:19[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m10:00:19[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] no evolution candidates after fallback 62.0,56.0,50.0[0m
+[32m10:00:19[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] 0 live / 0 evolution candidates from 301 symbols in 147765.3ms (feature=35 adv=8)[0m
+[32m10:00:19[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重2 警告1)[0m
+[32m10:00:19[0m | [33m[1mWARNING [0m | [36mselfheal.doctor[0m - [33m[1m[自愈] 本小时修复次数已达上限，跳过[0m
+[32m10:00:19[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:01:02[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m10:01:02[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m10:01:02[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] no evolution candidates after fallback 62.0,56.0,50.0[0m
+[32m10:01:02[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] 0 live / 0 evolution candidates from 301 symbols in 38133.3ms (feature=35 adv=8)[0m
+[32m10:01:02[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重1 警告2)[0m
+[32m10:01:02[0m | [33m[1mWARNING [0m | [36mselfheal.doctor[0m - [33m[1m[自愈] 本小时修复次数已达上限，跳过[0m
+[32m10:01:02[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:01:07[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:01:10[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:01:13[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:01:16[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:02:29[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m10:02:29[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m10:02:29[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] no evolution candidates after fallback 62.0,56.0,50.0[0m
+[32m10:02:29[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] 0 live / 0 evolution candidates from 301 symbols in 72976.9ms (feature=70 adv=18)[0m
+[32m10:02:29[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+WARNING:  Invalid HTTP request received.
+[32m10:03:09[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m10:03:09[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m10:03:09[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] no evolution candidates after fallback 62.0,56.0,50.0[0m
+[32m10:03:09[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] 0 live / 0 evolution candidates from 301 symbols in 34260.3ms (feature=49 adv=12)[0m
+[32m10:03:09[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重1 警告2)[0m
+[32m10:03:09[0m | [33m[1mWARNING [0m | [36mselfheal.doctor[0m - [33m[1m[自愈] 本小时修复次数已达上限，跳过[0m
+[32m10:03:10[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:15[0m | [1mINFO    [0m | [36mfeeds.sentiment[0m - [1m[舆情] 市场RSI=0.50 [中性] 修正1.0 样本0[0m
+[32m10:03:15[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:18[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:21[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:24[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:30[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m10:03:30[0m | [1mINFO    [0m | [36mstrategy.adaptive_selector[0m - [1m[selector] no candidates passed adaptive ranking[0m
+[32m10:03:30[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] no evolution candidates after fallback 62.0,56.0,50.0[0m
+[32m10:03:30[0m | [1mINFO    [0m | [36mengine.realtime_watch[0m - [1m[realtime_watch] 0 live / 0 evolution candidates from 301 symbols in 5698.5ms (feature=70 adv=18)[0m
+[32m10:03:30[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:30[0m | [33m[1mWARNING [0m | [36mselfheal.diagnostics[0m - [33m[1m[自愈] 健康检查: critical (严重1 警告1)[0m
+[32m10:03:30[0m | [33m[1mWARNING [0m | [36mselfheal.doctor[0m - [33m[1m[自愈] 本小时修复次数已达上限，跳过[0m
+[32m10:03:33[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:36[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:39[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:42[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:48[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:51[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m
+[32m10:03:54[0m | [33m[1mWARNING [0m | [36mfeeds.resilient[0m - [33m[1m[弹性] 所有指数源失败，使用缓存[0m

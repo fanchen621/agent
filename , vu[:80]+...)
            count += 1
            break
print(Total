@@ -1,0 +1,4 @@
+  File "<string>", line 6
+    if not fname.endswith(.json): continue
+                          ^
+SyntaxError: invalid syntax
